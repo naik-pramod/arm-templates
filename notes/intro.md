@@ -4,7 +4,7 @@
 
 
 #### Blank ARM Template
-`{
+```json{
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
@@ -15,15 +15,15 @@
   ],
   "outputs": {
   }
-}`
+}```
 
 If you see carefully the above JSON template,*parameters* , *variables*  and *outputs* are JSON Objects, while *resources* is JSON array.
 
 A typicall parameter would look as below
-`"adminUsername":{
+```json "adminUsername":{
     "type":"string",
     "minLength": 1,
     "metadata" : {
         "description":"Username for the VM"
     }
-}`
+}```
