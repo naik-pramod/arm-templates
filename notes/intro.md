@@ -21,11 +21,13 @@
 If you see carefully the above JSON template,*parameters* , *variables*  and *outputs* are JSON Objects, while *resources* is JSON array.
 
 A typicall parameter would look as below
-```json "adminUsername":{
+```json{
+"adminUsername":{
     "type":"string",
     "minLength": 1,
     "metadata" : {
         "description":"Username for the VM"
     }
+}
 }
 ```
