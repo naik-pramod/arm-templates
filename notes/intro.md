@@ -29,5 +29,4 @@ A typicall parameter would look as below
         "description":"Username for the VM"
     }
 }
-}
 ```
