@@ -1,0 +1,10 @@
+az network express-route list-service-providers
+
+az group create --name ExpressRouteResourceGroup1 
+--location "west-us"
+
+az network express-route create 
+--bandwidth 200 `
+--name MyCircuit `
+--peering-location dddd `
+--
